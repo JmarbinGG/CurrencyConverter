@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import CurrencyAPI from '@everapi/currencyapi-js';
 
-const currencyApi = new CurrencyAPI('cur_live_RYjgwdLNnoMJVcqpi3vDqfRREyxOKBdcA1OI5M1h');
+const currencyApi = new CurrencyAPI('PUT YOUR CURRENCY API KEY HERE LOL');
 const latestRatesForm = document.getElementById('latest_rates_form');
 const baseCurrencyInput = document.getElementById('base_currency_input');
 const currenciesInput = document.getElementById('currencies');
